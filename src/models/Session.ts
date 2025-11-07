@@ -12,6 +12,7 @@ export interface ISession extends Document {
   bookedAppointments: number;
   status: "active" | "cancelled";
   createdAt: Date;
+
 }
 
 const SessionSchema = new Schema<ISession>(
